@@ -12,6 +12,9 @@ name: burndown
 # falls back to it and will fail until the secret exists.
 
 on:
+  push:
+    branches:
+      - burndown-automation
   schedule:
     - cron: "0 6 * * *" # daily 06:00 UTC
   workflow_dispatch: {}
