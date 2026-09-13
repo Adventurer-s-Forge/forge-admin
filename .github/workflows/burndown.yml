@@ -1,0 +1,82 @@
+name: burndown
+
+# Daily snapshot of the Adventurer's Forge project board:
+#   1. Snapshot board state into docs/burndown/history.csv
+#   2. Render per-sprint burndown charts
+#   3. Commit the updated CSV + PNGs to the default branch (data-only artifacts)
+#   4. Upload everything as a downloadable run artifact and link it in the job summary
+#
+# Setup (one time): create a fine-grained PAT (or classic token) with read access to
+# organization projects, save it as the org/repo secret PROJECTS_TOKEN. The built-in
+# GITHUB_TOKEN cannot read org-level projects; if PROJECTS_TOKEN is missing the run
+# falls back to it and will fail until the secret exists.
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # daily 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: burndown
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install chart dependencies
+        run: pip install matplotlib
+
+      - name: Snapshot project board
+        env:
+          GH_TOKEN: ${{ secrets.PROJECTS_TOKEN || github.token }}
+        run: python scripts/burndown_snapshot.py
+
+      - name: Render burndown charts
+        run: python scripts/burndown_chart.py
+
+      - name: Commit updated history and charts
+        run: |
+          git config user.name "burndown-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/burndown
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+          else
+            git commit -m "chore(burndown): automated snapshot [skip ci]"
+            git push
+          fi
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: burndown-${{ github.run_number }}
+          path: |
+            docs/burndown/*.png
+            docs/burndown/*.csv
+          retention-days: 90
+          if-no-files-found: error
+
+      - name: Link artifacts in job summary
+        env:
+          REPO: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          {
+            echo "## Burndown updated: $(date -u +%Y-%m-%d)"
+            echo
+            for f in docs/burndown/*-burndown.png; do
+              echo "- Chart: [\`$f\`](https://github.com/${REPO}/blob/${GITHUB_REF_NAME}/$f)"
+            done
+            echo "- History: [\`docs/burndown/history.csv\`](https://github.com/${REPO}/blob/${GITHUB_REF_NAME}/docs/burndown/history.csv)"
+            echo "- [Download artifacts for this run](https://github.com/${REPO}/actions/runs/${RUN_ID}#artifacts)"
+          } >> "$GITHUB_STEP_SUMMARY"
