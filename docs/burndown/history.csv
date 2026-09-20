@@ -552,3 +552,82 @@ date,milestone,item_number,repository,item_type,title,story_points,status
 2026-09-19,sprint1,72,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Documentation,,Backlog
 2026-09-19,sprint1,74,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Verify Data is Retrieved Exclusively from Redis at Runtime,,Done
 2026-09-19,sprint1,78,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Documentation,,Done
+2026-09-20,sprint1,22,Adventurer-s-Forge/forge-admin,Issue,US-18: Character Creation,5,In progress
+2026-09-20,sprint1,2,Adventurer-s-Forge/forge-admin,Issue,US-34: Allow selection of character’s race,3,In progress
+2026-09-20,sprint1,3,Adventurer-s-Forge/forge-admin,Issue,US-35: Allow selection of character’s class,3,In progress
+2026-09-20,sprint1,7,Adventurer-s-Forge/forge-admin,Issue,US-22: Ingest Reference Content from External Source,5,In review
+2026-09-20,sprint1,19,Adventurer-s-Forge/forge-admin,Issue,US-13: Account Registration,5,Done
+2026-09-20,sprint1,79,Adventurer-s-Forge/forge-admin,Issue,US-13 Task: Create a New Account and Ensure that 1 Email Resolves to Exactly 1 Account,,Done
+2026-09-20,sprint1,80,Adventurer-s-Forge/forge-admin,Issue,US-13 Task: Unit and System Testing,,Done
+2026-09-20,sprint1,81,Adventurer-s-Forge/forge-admin,Issue,US-13 Task: Code Review,,Done
+2026-09-20,sprint1,82,Adventurer-s-Forge/forge-admin,Issue,US-13 Task: Integration,,Done
+2026-09-20,sprint1,83,Adventurer-s-Forge/forge-admin,Issue,US-13 Task: Deployment,,Done
+2026-09-20,sprint1,84,Adventurer-s-Forge/forge-admin,Issue,"US-13 Task: Ensure that Every Failure Path Returns a Specific, Actionable Message",,Done
+2026-09-20,sprint1,20,Adventurer-s-Forge/forge-admin,Issue,US-15: Account Login,3,Done
+2026-09-20,sprint1,49,Adventurer-s-Forge/forge-admin,Issue,US-15 Task: Ensure that all 3 Sign-In Methods Authenticate from a Clean Browser Session and Survives a Page Refresh,,Done
+2026-09-20,sprint1,50,Adventurer-s-Forge/forge-admin,Issue,US-15 Task: Unit and System Testing,,Done
+2026-09-20,sprint1,51,Adventurer-s-Forge/forge-admin,Issue,US-15 Task: Code Review,,Done
+2026-09-20,sprint1,52,Adventurer-s-Forge/forge-admin,Issue,US-15 Task: Integration,,Done
+2026-09-20,sprint1,53,Adventurer-s-Forge/forge-admin,Issue,US-15 Task: Deployment,,Done
+2026-09-20,sprint1,60,Adventurer-s-Forge/forge-admin,Issue,US-15 Task: Ensure that Users with Lost Passwords can Regain Access Unaided,,Done
+2026-09-20,sprint1,21,Adventurer-s-Forge/forge-admin,Issue,US-17: User Logout,2,Done
+2026-09-20,sprint1,54,Adventurer-s-Forge/forge-admin,Issue,US-17 Task: End Session on Sign-out and Return User to the Login Screen,,Done
+2026-09-20,sprint1,55,Adventurer-s-Forge/forge-admin,Issue,US-17 Task: Unit and System Testing,,Done
+2026-09-20,sprint1,56,Adventurer-s-Forge/forge-admin,Issue,US-17 Task: Code Review,,Done
+2026-09-20,sprint1,57,Adventurer-s-Forge/forge-admin,Issue,US-17 Task: Integration,,Done
+2026-09-20,sprint1,58,Adventurer-s-Forge/forge-admin,Issue,US-17 Task: Deployment,,Done
+2026-09-20,sprint1,59,Adventurer-s-Forge/forge-admin,Issue,US-17 Task: Report Failed Sign-outs to the User while Leaving the App Usable,,Done
+2026-09-20,sprint1,1,Adventurer-s-Forge/forge-frontend,PullRequest,"Firebase auth: registration, login, and sign-out",,Done
+2026-09-20,,23,Adventurer-s-Forge/forge-admin,Issue,US-1: Select Spells,,Backlog
+2026-09-20,,38,Adventurer-s-Forge/forge-admin,Issue,US-2: Calculate Spell Modifiers,,Backlog
+2026-09-20,,37,Adventurer-s-Forge/forge-admin,Issue,US-3: Calculate Ability Modifiers,,Backlog
+2026-09-20,,35,Adventurer-s-Forge/forge-admin,Issue,US-4: Calculate Saving Throws and Proficiency Bonus,,Backlog
+2026-09-20,,34,Adventurer-s-Forge/forge-admin,Issue,US-5: Calculate Skill Modifiers,,Backlog
+2026-09-20,,33,Adventurer-s-Forge/forge-admin,Issue,US-6: Select Skills,,Backlog
+2026-09-20,,32,Adventurer-s-Forge/forge-admin,Issue,US-7: Calculate Battle Abilities,,Backlog
+2026-09-20,,29,Adventurer-s-Forge/forge-admin,Issue,US-10: Calculate Health,,Backlog
+2026-09-20,,31,Adventurer-s-Forge/forge-admin,Issue,US-8: Calculate Attack Bonuses for Equipped Weapons,,Backlog
+2026-09-20,,28,Adventurer-s-Forge/forge-admin,Issue,US-11: Calculate New Hit Points Based on Entered Damage/Healing Points,,Backlog
+2026-09-20,,26,Adventurer-s-Forge/forge-admin,Issue,US-14: Registration Validation & Security Checks,2,Backlog
+2026-09-20,sprint1,73,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Create Re-runnable Ingestion Script,,Done
+2026-09-20,sprint1,76,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Complete Test Suite & Green CI,,In progress
+2026-09-20,sprint1,75,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Code Review,,In progress
+2026-09-20,sprint1,77,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Deployment,,In progress
+2026-09-20,,25,Adventurer-s-Forge/forge-admin,Issue,US-16: Login Validation & Error Handling,2,Backlog
+2026-09-20,,30,Adventurer-s-Forge/forge-admin,Issue,US-9: Automatically Populate Feats,,Backlog
+2026-09-20,,27,Adventurer-s-Forge/forge-admin,Issue,US-12: Display Descriptions of Character Attributes,,Backlog
+2026-09-20,,4,Adventurer-s-Forge/forge-admin,Issue,US-20: Allow selection of character’s equipment,3,Backlog
+2026-09-20,,5,Adventurer-s-Forge/forge-admin,Issue,US-19: Character Saving & Persistence,5,Backlog
+2026-09-20,,6,Adventurer-s-Forge/forge-admin,Issue,US-21: Allow Duplicating of the Character Sheet,2,Backlog
+2026-09-20,,8,Adventurer-s-Forge/forge-admin,Issue,US-23: Display Content Attribution,3,Backlog
+2026-09-20,,9,Adventurer-s-Forge/forge-admin,Issue,US-24: Search Reference Content,3,Backlog
+2026-09-20,,10,Adventurer-s-Forge/forge-admin,Issue,US-25: Filter Search Result by Content Type,3,Backlog
+2026-09-20,,11,Adventurer-s-Forge/forge-admin,Issue,US-26: Without Losing Character Progress,4,Backlog
+2026-09-20,,12,Adventurer-s-Forge/forge-admin,Issue,US-27: Share a Character with Another Player,4,Backlog
+2026-09-20,,13,Adventurer-s-Forge/forge-admin,Issue,US-28: View Characters Shared With Me,3,Backlog
+2026-09-20,,14,Adventurer-s-Forge/forge-admin,Issue,US-29: Restrict Shared Characters to Read-Only,3,Backlog
+2026-09-20,,15,Adventurer-s-Forge/forge-admin,Issue,US-30: Keep Characters Private by Default,2,Backlog
+2026-09-20,,16,Adventurer-s-Forge/forge-admin,Issue,US-31: Revoke Character Sharing,3,Backlog
+2026-09-20,,17,Adventurer-s-Forge/forge-admin,Issue,US-32: Export Character Sheet,2,Backlog
+2026-09-20,,18,Adventurer-s-Forge/forge-admin,Issue,US-33: Produce Print-Ready Character Sheet Layout,5,Backlog
+2026-09-20,,39,Adventurer-s-Forge/forge-admin,Issue,US-36: Allow Editing of the Character Sheet,2,Backlog
+2026-09-20,sprint1,43,Adventurer-s-Forge/forge-admin,Issue,US-18 Task: Create New Character Object in Database and link to User's ID,,Backlog
+2026-09-20,sprint1,44,Adventurer-s-Forge/forge-admin,Issue,US-18 Task: Unit and System Testing,,Backlog
+2026-09-20,sprint1,45,Adventurer-s-Forge/forge-admin,Issue,US-18 Task: Code Review,,Backlog
+2026-09-20,sprint1,46,Adventurer-s-Forge/forge-admin,Issue,US-18 Task: Integration,,Backlog
+2026-09-20,sprint1,47,Adventurer-s-Forge/forge-admin,Issue,US-18 Task: Deployment,,Backlog
+2026-09-20,sprint1,48,Adventurer-s-Forge/forge-admin,Issue,US-18 Task: Load User into Character Editor with Blank Character Sheet,,Backlog
+2026-09-20,sprint1,61,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Implementation,,Backlog
+2026-09-20,sprint1,62,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Unit and System Testing,,Backlog
+2026-09-20,sprint1,63,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Code Review,,Backlog
+2026-09-20,sprint1,64,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Integration,,Backlog
+2026-09-20,sprint1,65,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Deployment,,Backlog
+2026-09-20,sprint1,66,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Documentation,,Backlog
+2026-09-20,sprint1,67,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Implementation,,Backlog
+2026-09-20,sprint1,68,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Unit and System Testing,,Backlog
+2026-09-20,sprint1,69,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Code Review,,Backlog
+2026-09-20,sprint1,70,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Integration,,Backlog
+2026-09-20,sprint1,71,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Deployment,,Backlog
+2026-09-20,sprint1,72,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Documentation,,Backlog
+2026-09-20,sprint1,74,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Verify Data is Retrieved Exclusively from Redis at Runtime,,Done
+2026-09-20,sprint1,78,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Documentation,,Done
