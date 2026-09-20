@@ -552,14 +552,25 @@ date,milestone,item_number,repository,item_type,title,story_points,status
 2026-09-19,sprint1,72,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Documentation,,Backlog
 2026-09-19,sprint1,74,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Verify Data is Retrieved Exclusively from Redis at Runtime,,Done
 2026-09-19,sprint1,78,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Documentation,,Done
+2026-09-20,sprint1,66,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Documentation,,Ready
+2026-09-20,sprint1,65,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Deployment,,Ready
+2026-09-20,sprint1,64,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Integration,,Ready
+2026-09-20,sprint1,69,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Code Review,,Ready
+2026-09-20,sprint1,70,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Integration,,Ready
+2026-09-20,sprint1,71,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Deployment,,Ready
+2026-09-20,sprint1,72,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Documentation,,Ready
+2026-09-20,sprint1,68,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Unit and System Testing,,Ready
+2026-09-20,sprint1,67,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Implementation,,Ready
 2026-09-20,sprint1,22,Adventurer-s-Forge/forge-admin,Issue,US-18: Character Creation,5,In progress
-2026-09-20,sprint1,2,Adventurer-s-Forge/forge-admin,Issue,US-34: Allow selection of character’s race,3,In progress
 2026-09-20,sprint1,3,Adventurer-s-Forge/forge-admin,Issue,US-35: Allow selection of character’s class,3,In progress
-2026-09-20,sprint1,7,Adventurer-s-Forge/forge-admin,Issue,US-22: Ingest Reference Content from External Source,5,In review
 2026-09-20,sprint1,19,Adventurer-s-Forge/forge-admin,Issue,US-13: Account Registration,5,Done
+2026-09-20,sprint1,7,Adventurer-s-Forge/forge-admin,Issue,US-22: Ingest Reference Content from External Source,5,Done
 2026-09-20,sprint1,79,Adventurer-s-Forge/forge-admin,Issue,US-13 Task: Create a New Account and Ensure that 1 Email Resolves to Exactly 1 Account,,Done
 2026-09-20,sprint1,80,Adventurer-s-Forge/forge-admin,Issue,US-13 Task: Unit and System Testing,,Done
+2026-09-20,sprint1,75,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Code Review,,Done
+2026-09-20,sprint1,76,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Complete Test Suite & Green CI,,Done
 2026-09-20,sprint1,81,Adventurer-s-Forge/forge-admin,Issue,US-13 Task: Code Review,,Done
+2026-09-20,sprint1,77,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Deployment,,Done
 2026-09-20,sprint1,82,Adventurer-s-Forge/forge-admin,Issue,US-13 Task: Integration,,Done
 2026-09-20,sprint1,83,Adventurer-s-Forge/forge-admin,Issue,US-13 Task: Deployment,,Done
 2026-09-20,sprint1,84,Adventurer-s-Forge/forge-admin,Issue,"US-13 Task: Ensure that Every Failure Path Returns a Specific, Actionable Message",,Done
@@ -590,9 +601,6 @@ date,milestone,item_number,repository,item_type,title,story_points,status
 2026-09-20,,28,Adventurer-s-Forge/forge-admin,Issue,US-11: Calculate New Hit Points Based on Entered Damage/Healing Points,,Backlog
 2026-09-20,,26,Adventurer-s-Forge/forge-admin,Issue,US-14: Registration Validation & Security Checks,2,Backlog
 2026-09-20,sprint1,73,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Create Re-runnable Ingestion Script,,Done
-2026-09-20,sprint1,76,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Complete Test Suite & Green CI,,In progress
-2026-09-20,sprint1,75,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Code Review,,In progress
-2026-09-20,sprint1,77,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Deployment,,In progress
 2026-09-20,,25,Adventurer-s-Forge/forge-admin,Issue,US-16: Login Validation & Error Handling,2,Backlog
 2026-09-20,,30,Adventurer-s-Forge/forge-admin,Issue,US-9: Automatically Populate Feats,,Backlog
 2026-09-20,,27,Adventurer-s-Forge/forge-admin,Issue,US-12: Display Descriptions of Character Attributes,,Backlog
@@ -617,17 +625,9 @@ date,milestone,item_number,repository,item_type,title,story_points,status
 2026-09-20,sprint1,46,Adventurer-s-Forge/forge-admin,Issue,US-18 Task: Integration,,Backlog
 2026-09-20,sprint1,47,Adventurer-s-Forge/forge-admin,Issue,US-18 Task: Deployment,,Backlog
 2026-09-20,sprint1,48,Adventurer-s-Forge/forge-admin,Issue,US-18 Task: Load User into Character Editor with Blank Character Sheet,,Backlog
-2026-09-20,sprint1,61,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Implementation,,Backlog
-2026-09-20,sprint1,62,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Unit and System Testing,,Backlog
-2026-09-20,sprint1,63,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Code Review,,Backlog
-2026-09-20,sprint1,64,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Integration,,Backlog
-2026-09-20,sprint1,65,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Deployment,,Backlog
-2026-09-20,sprint1,66,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Documentation,,Backlog
-2026-09-20,sprint1,67,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Implementation,,Backlog
-2026-09-20,sprint1,68,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Unit and System Testing,,Backlog
-2026-09-20,sprint1,69,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Code Review,,Backlog
-2026-09-20,sprint1,70,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Integration,,Backlog
-2026-09-20,sprint1,71,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Deployment,,Backlog
-2026-09-20,sprint1,72,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Documentation,,Backlog
+2026-09-20,sprint1,61,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Implementation,,Done
+2026-09-20,sprint1,62,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Unit and System Testing,,Done
+2026-09-20,sprint1,63,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Code Review,,In review
+2026-09-20,sprint1,2,Adventurer-s-Forge/forge-admin,Issue,US-34: Allow selection of character’s race,3,In review
 2026-09-20,sprint1,74,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Verify Data is Retrieved Exclusively from Redis at Runtime,,Done
 2026-09-20,sprint1,78,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Documentation,,Done
