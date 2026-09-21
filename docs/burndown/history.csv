@@ -631,10 +631,10 @@ date,milestone,item_number,repository,item_type,title,story_points,status
 2026-09-20,sprint1,2,Adventurer-s-Forge/forge-admin,Issue,US-34: Allow selection of character’s race,3,In review
 2026-09-20,sprint1,74,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Verify Data is Retrieved Exclusively from Redis at Runtime,,Done
 2026-09-20,sprint1,78,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Documentation,,Done
-2026-09-21,sprint1,2,Adventurer-s-Forge/forge-admin,Issue,US-34: Allow selection of character’s race,3,Done
-2026-09-21,sprint1,65,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Deployment,,Done
-2026-09-21,sprint1,64,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Integration,,Done
-2026-09-21,sprint1,66,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Documentation,,Done
+2026-09-21,sprint1,2,Adventurer-s-Forge/forge-admin,Issue,US-34: Allow selection of character’s race,3,In review
+2026-09-21,sprint1,65,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Deployment,,In review
+2026-09-21,sprint1,64,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Integration,,In review
+2026-09-21,sprint1,66,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Documentation,,In review
 2026-09-21,sprint1,69,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Code Review,,Ready
 2026-09-21,sprint1,70,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Integration,,Ready
 2026-09-21,sprint1,71,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Deployment,,Ready
