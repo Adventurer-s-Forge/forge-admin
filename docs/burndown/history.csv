@@ -3223,6 +3223,7 @@ date,milestone,item_number,repository,item_type,title,story_points,status
 2026-10-18,sprint2,91,Adventurer-s-Forge/forge-admin,Issue,US-6: Automated tests pass,,Done
 2026-10-18,sprint2,39,Adventurer-s-Forge/forge-admin,Issue,US-36: Allow Editing of the Character Sheet,2,Done
 2026-10-18,sprint2,101,Adventurer-s-Forge/forge-admin,Issue,US-1 Task: The frontend reaches out to the spells API only if the character’s class is a Spellcasting class,,Done
+2026-10-18,sprint2,105,Adventurer-s-Forge/forge-admin,Issue,Selected spells are saved in the database and associated with the correct character.,,Done
 2026-10-18,sprint2,108,Adventurer-s-Forge/forge-admin,Issue,US-19 Task: Automated tests pass,,Done
 2026-10-18,sprint2,107,Adventurer-s-Forge/forge-admin,Issue,US-19 Task: Backend endpoints are developed to save and retrieve a whole character at once,,Done
 2026-10-18,sprint2,106,Adventurer-s-Forge/forge-admin,Issue,US-19 Task: Redis database is reloaded from the data directory after restart,,Done
@@ -3250,7 +3251,6 @@ date,milestone,item_number,repository,item_type,title,story_points,status
 2026-10-18,sprint2,113,Adventurer-s-Forge/forge-admin,Issue,US-20 Task: Code reviewed and merged,,Done
 2026-10-18,sprint2,111,Adventurer-s-Forge/forge-admin,Issue,US-20 Task: Equipment endpoints allow updating previously selected equipment,,Done
 2026-10-18,sprint2,110,Adventurer-s-Forge/forge-admin,Issue,US-20 Task: Relevant equipment endpoints are created in user_character_data_routes.py,,Done
-2026-10-18,sprint2,105,Adventurer-s-Forge/forge-admin,Issue,Selected spells are saved in the database and associated with the correct character.,,In review
 2026-10-18,sprint2,23,Adventurer-s-Forge/forge-admin,Issue,US-1: Select Spells,3,Done
 2026-10-18,sprint2,33,Adventurer-s-Forge/forge-admin,Issue,US-6: Select Skills,3,Done
 2026-10-18,sprint2,87,Adventurer-s-Forge/forge-admin,Issue,US-38: Delete a Character,2,Done
