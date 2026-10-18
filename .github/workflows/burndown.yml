@@ -1,10 +1,12 @@
 name: burndown
 
-# Daily snapshot of the Adventurer's Forge project board:
+# Daily snapshot of the Adventurer's Forge project board + contribution activity:
 #   1. Snapshot board state into docs/burndown/history.csv
 #   2. Render per-sprint burndown charts and the per-sprint velocity report
-#   3. Commit the updated CSV + PNGs to the default branch (data-only artifacts)
-#   4. Upload everything as a downloadable run artifact and link it in the job summary
+#   3. Snapshot org contribution activity into docs/contributions/events.csv
+#   4. Render the weekly contribution report
+#   5. Commit the updated CSV + PNGs to the default branch (data-only artifacts)
+#   6. Upload everything as a downloadable run artifact and link it in the job summary
 #
 # Setup (one time): create a fine-grained PAT (or classic token) with read access to
 # organization projects, save it as the org/repo secret PROJECTS_TOKEN. The built-in
@@ -50,11 +52,19 @@ jobs:
       - name: Compute sprint velocity
         run: python scripts/velocity_report.py
 
+      - name: Snapshot contribution activity
+        env:
+          GH_TOKEN: ${{ secrets.PROJECTS_TOKEN || github.token }}
+        run: python scripts/contribution_snapshot.py
+
+      - name: Render contribution report
+        run: python scripts/contribution_report.py
+
       - name: Commit updated history and charts
         run: |
           git config user.name "burndown-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/burndown
+          git add docs/burndown docs/contributions
           if git diff --cached --quiet; then
             echo "Nothing to commit"
           else
@@ -69,6 +79,8 @@ jobs:
           path: |
             docs/burndown/*.png
             docs/burndown/*.csv
+            docs/contributions/*.png
+            docs/contributions/*.csv
           retention-days: 90
           if-no-files-found: error
 
@@ -85,5 +97,6 @@ jobs:
             done
             echo "- History: [\`docs/burndown/history.csv\`](https://github.com/${REPO}/blob/${GITHUB_REF_NAME}/docs/burndown/history.csv)"
             echo "- Velocity: [\`docs/burndown/velocity.png\`](https://github.com/${REPO}/blob/${GITHUB_REF_NAME}/docs/burndown/velocity.png) ([csv](https://github.com/${REPO}/blob/${GITHUB_REF_NAME}/docs/burndown/velocity.csv))"
+            echo "- Contributions: [\`docs/contributions/weekly.png\`](https://github.com/${REPO}/blob/${GITHUB_REF_NAME}/docs/contributions/weekly.png) ([weekly](https://github.com/${REPO}/blob/${GITHUB_REF_NAME}/docs/contributions/weekly.csv) · [by author](https://github.com/${REPO}/blob/${GITHUB_REF_NAME}/docs/contributions/by_author.csv))"
             echo "- [Download artifacts for this run](https://github.com/${REPO}/actions/runs/${RUN_ID}#artifacts)"
           } >> "$GITHUB_STEP_SUMMARY"
