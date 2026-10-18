@@ -2,7 +2,7 @@ name: burndown
 
 # Daily snapshot of the Adventurer's Forge project board:
 #   1. Snapshot board state into docs/burndown/history.csv
-#   2. Render per-sprint burndown charts
+#   2. Render per-sprint burndown charts and the per-sprint velocity report
 #   3. Commit the updated CSV + PNGs to the default branch (data-only artifacts)
 #   4. Upload everything as a downloadable run artifact and link it in the job summary
 #
@@ -47,6 +47,9 @@ jobs:
       - name: Render burndown charts
         run: python scripts/burndown_chart.py
 
+      - name: Compute sprint velocity
+        run: python scripts/velocity_report.py
+
       - name: Commit updated history and charts
         run: |
           git config user.name "burndown-bot"
@@ -81,5 +84,6 @@ jobs:
               echo "- Chart: [\`$f\`](https://github.com/${REPO}/blob/${GITHUB_REF_NAME}/$f)"
             done
             echo "- History: [\`docs/burndown/history.csv\`](https://github.com/${REPO}/blob/${GITHUB_REF_NAME}/docs/burndown/history.csv)"
+            echo "- Velocity: [\`docs/burndown/velocity.png\`](https://github.com/${REPO}/blob/${GITHUB_REF_NAME}/docs/burndown/velocity.png) ([csv](https://github.com/${REPO}/blob/${GITHUB_REF_NAME}/docs/burndown/velocity.csv))"
             echo "- [Download artifacts for this run](https://github.com/${REPO}/actions/runs/${RUN_ID}#artifacts)"
           } >> "$GITHUB_STEP_SUMMARY"

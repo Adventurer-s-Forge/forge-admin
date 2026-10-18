@@ -9,9 +9,11 @@ and renders a burndown chart per milestone. Runs daily via GitHub Actions.
 |---|---|
 | `scripts/burndown_snapshot.py` | Pulls the board via `gh project item-list`, appends today's rows to `history.csv` (idempotent per date), refreshes `milestones.csv` |
 | `scripts/burndown_chart.py` | Renders `<milestone>-burndown.png` from `history.csv` (offline, no board access) |
-| `.github/workflows/burndown.yml` | Daily cron (06:00 UTC) + manual trigger: snapshot → chart → commit to default branch → upload artifact + job-summary links |
+| `scripts/velocity_report.py` | Computes per-sprint velocity from `history.csv` and writes `velocity.csv` + `velocity.png` (offline, like the chart script) |
+| `.github/workflows/burndown.yml` | Daily cron (06:00 UTC) + manual trigger: snapshot → chart → velocity → commit to default branch → upload artifact + job-summary links |
 | `history.csv` | One row per project item per snapshot date (append-only across sprints) |
 | `milestones.csv` | Per-sprint start/end dates (end = milestone due date; start parsed from the milestone description, e.g. "Starts Sept. 7th") |
+| `velocity.csv` | Per-sprint scope, completed points, completed items, and completion % (regenerated each run from `history.csv`) |
 
 ## Model
 
@@ -21,6 +23,7 @@ and renders a burndown chart per milestone. Runs daily via GitHub Actions.
 - **Burned:** an item's points are removed when its board status reaches **Done**
   "In review" still counts as remaining.
 - **Ideal line:** straight from sprint scope at the start date to 0 at the due date.
+- **Velocity:** per sprint, story points of estimated items that first reached **Done** while attributed to that sprint (`scripts/velocity_report.py`). Completion % = velocity / scope.
 
 ## One-time setup
 
