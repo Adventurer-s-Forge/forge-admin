@@ -4905,3 +4905,182 @@ date,milestone,item_number,repository,item_type,title,story_points,status
 2026-10-29,sprint3,162,Adventurer-s-Forge/forge-admin,Issue,US-21 Task: The duplicate action is reachable from every character card on the dashboard,,In review
 2026-10-29,sprint3,161,Adventurer-s-Forge/forge-admin,Issue,US-21 Task: The copy appears on the dashboard immediately and is editable like any other character.,,In review
 2026-10-29,,39,Adventurer-s-Forge/forge-backend,Issue,"Spell validation ignores the background's Magic Initiate grant, rejecting legal characters with 422.",,Backlog
+2026-10-30,sprint3,6,Adventurer-s-Forge/forge-admin,Issue,US-21: Allow Duplicating of the Character Sheet,2,In review
+2026-10-30,sprint3,144,Adventurer-s-Forge/forge-admin,Issue,US-14 Task: Handle when the password is less than 9 characters or the confirmation does not match,,Done
+2026-10-30,sprint3,123,Adventurer-s-Forge/forge-admin,Issue,US-3 Task: Include background's origin bonuses,,Done
+2026-10-30,sprint3,122,Adventurer-s-Forge/forge-admin,Issue,US-3 Task: Calculate ability score modifiers,,Done
+2026-10-30,sprint3,129,Adventurer-s-Forge/forge-admin,Issue,US-4 Task: Unit Testing,,Done
+2026-10-30,sprint3,124,Adventurer-s-Forge/forge-admin,Issue,US-3 Task: Recompute ability modifiers on render instead of storing them,,Done
+2026-10-30,sprint3,121,Adventurer-s-Forge/forge-admin,Issue,US-2 Task: Unit Testing,,Done
+2026-10-30,sprint3,125,Adventurer-s-Forge/forge-admin,Issue,US-3 Task: Unit Testing,,Done
+2026-10-30,sprint3,126,Adventurer-s-Forge/forge-admin,Issue,US-4 Task: The proficiency bonus is derived from the character’s level,,Done
+2026-10-30,sprint3,127,Adventurer-s-Forge/forge-admin,Issue,US-4 Task: Only proficient saving throws include proficiency bonus,,Done
+2026-10-30,sprint3,128,Adventurer-s-Forge/forge-admin,Issue,US-4 Task: The proficient abilities are read from the class’ authoritative core traits data,,Done
+2026-10-30,sprint3,120,Adventurer-s-Forge/forge-admin,Issue,US-2 Task: Ensure that the Magic Initiate background confers spellcasting if the class does not,,Done
+2026-10-30,sprint3,119,Adventurer-s-Forge/forge-admin,Issue,US-2 Task: Show no spell modifiers for non-spellcasting classes,,Done
+2026-10-30,sprint3,130,Adventurer-s-Forge/forge-admin,Issue,US-5 Task: Each skill’s modifier combines its governing ability modifier with the proficiency bonus where the character is proficient,,Done
+2026-10-30,sprint3,131,Adventurer-s-Forge/forge-admin,Issue,"US-5: Task: Expertise doubles the proficiency bonus only, not the whole modifier",,Done
+2026-10-30,sprint3,132,Adventurer-s-Forge/forge-admin,Issue,US-5 Task: Skills granted by the background are treated as proficient alongside the player’s own selections,,Done
+2026-10-30,sprint3,135,Adventurer-s-Forge/forge-admin,Issue,US-7 Task: Speed is taken from the chosen race,,Done
+2026-10-30,sprint3,133,Adventurer-s-Forge/forge-admin,Issue,US-7 Task: Armor class is computed from equipped armor,,Done
+2026-10-30,sprint3,134,Adventurer-s-Forge/forge-admin,Issue,US-7 Task: Initiative equals the Dexterity modifier,,Done
+2026-10-30,sprint3,138,Adventurer-s-Forge/forge-admin,Issue,US-10 Task: The hit die is reported alongside hit points on the character sheet,,Done
+2026-10-30,sprint3,136,Adventurer-s-Forge/forge-admin,Issue,US-7 Task: Armor class includes modifiers conferred by feats and fighting styles,,Done
+2026-10-30,sprint3,137,Adventurer-s-Forge/forge-admin,Issue,US-10 Task: Hit points at level 1 equal the class hit die plus the Constitution modifier,,Done
+2026-10-30,sprint3,139,Adventurer-s-Forge/forge-admin,Issue,US-10 Task: A negative Constitution modifier reduces hit points rather than being ignored,,Done
+2026-10-30,sprint3,140,Adventurer-s-Forge/forge-admin,Issue,US-10 Task: Unit Testing,,Done
+2026-10-30,sprint3,141,Adventurer-s-Forge/forge-admin,Issue,"US-12 Task: Selecting a race or class displays its descriptive text,",,Done
+2026-10-30,sprint3,150,Adventurer-s-Forge/forge-admin,Issue,US-30 Task: Enforce ownership server-side,,Done
+2026-10-30,sprint3,142,Adventurer-s-Forge/forge-admin,Issue,"US-12 Task: The selected background displayed its origin feat, granted skills, and tool proficiency",,Done
+2026-10-30,sprint3,143,Adventurer-s-Forge/forge-admin,Issue,US-12 Task: All descriptive text originates in the reference content,,Done
+2026-10-30,sprint3,148,Adventurer-s-Forge/forge-admin,Issue,US-30 Task: Characters are private by default,,Done
+2026-10-30,sprint3,149,Adventurer-s-Forge/forge-admin,Issue,US-30 Task: Other users' characters are hidden to other people by 404 errors,,Done
+2026-10-30,sprint3,151,Adventurer-s-Forge/forge-admin,Issue,US-30 Task: Unit Tests,,Done
+2026-10-30,sprint3,152,Adventurer-s-Forge/forge-admin,Issue,"US-37 Task: Every background in the reference content is offered, showing the three abilities it can raise",,Done
+2026-10-30,sprint3,153,Adventurer-s-Forge/forge-admin,Issue,"US-37 Task: Selecting one records it and displays its origin feat, granted skills, and tool proficiency",,Done
+2026-10-30,sprint3,154,Adventurer-s-Forge/forge-admin,Issue,US-37 Task: Ensure that tool categories are selecting before completing the background step,,Done
+2026-10-30,sprint3,145,Adventurer-s-Forge/forge-admin,Issue,"US-14 Task: Registering with an email that already has an account is refused, with a message naming that specific conflict",,Done
+2026-10-30,sprint3,147,Adventurer-s-Forge/forge-admin,Issue,US-14 Task: Unit Testing,,Done
+2026-10-30,sprint3,146,Adventurer-s-Forge/forge-admin,Issue,US-14 Task: Validation occurs before submission rather than being reported after it,,Done
+2026-10-30,sprint3,118,Adventurer-s-Forge/forge-admin,Issue,US-2 Task: Calculate and Display Spell Modifiers,,Done
+2026-10-30,sprint3,38,Adventurer-s-Forge/forge-backend,PullRequest,"Accept the fighting style, tool choice and wallet balance on CharacterRecord",,Done
+2026-10-30,sprint3,35,Adventurer-s-Forge/forge-admin,Issue,US-4: Calculate Saving Throws and Proficiency Bonus,3,Done
+2026-10-30,sprint3,26,Adventurer-s-Forge/forge-admin,Issue,US-14: Registration Validation & Security Checks,2,Done
+2026-10-30,sprint3,38,Adventurer-s-Forge/forge-admin,Issue,US-2: Calculate Spell Modifiers,3,Done
+2026-10-30,sprint3,15,Adventurer-s-Forge/forge-admin,Issue,US-30: Keep Characters Private by Default,2,Done
+2026-10-30,sprint3,86,Adventurer-s-Forge/forge-admin,Issue,US-37: Select Background,3,Done
+2026-10-30,sprint3,37,Adventurer-s-Forge/forge-admin,Issue,US-3: Calculate Ability Modifiers,3,Done
+2026-10-30,sprint3,34,Adventurer-s-Forge/forge-admin,Issue,US-5: Calculate Skill Modifiers,3,Done
+2026-10-30,sprint3,32,Adventurer-s-Forge/forge-admin,Issue,US-7: Calculate Battle Abilities,3,Done
+2026-10-30,sprint3,27,Adventurer-s-Forge/forge-admin,Issue,US-12: Display Descriptions of Character Attributes,2,Done
+2026-10-30,sprint3,29,Adventurer-s-Forge/forge-admin,Issue,US-10: Calculate Health,2,Done
+2026-10-30,sprint3,9,Adventurer-s-Forge/forge-admin,Issue,US-24: Search Reference Content,3,Ready
+2026-10-30,sprint3,10,Adventurer-s-Forge/forge-admin,Issue,US-25: Filter Search Result by Content Type,3,Ready
+2026-10-30,sprint3,11,Adventurer-s-Forge/forge-admin,Issue,US-26: Without Losing Character Progress,4,Ready
+2026-10-30,sprint3,30,Adventurer-s-Forge/forge-admin,Issue,US-9: Automatically Populate Feats,5,Ready
+2026-10-30,sprint3,8,Adventurer-s-Forge/forge-admin,Issue,US-23: Display Content Attribution,3,Ready
+2026-10-30,sprint2,93,Adventurer-s-Forge/forge-admin,Issue,US-16 Task: A failed sign-in displays “Invalid email or password”,,Done
+2026-10-30,sprint1,45,Adventurer-s-Forge/forge-admin,Issue,US-18 Task: Code Review,,Done
+2026-10-30,sprint1,47,Adventurer-s-Forge/forge-admin,Issue,US-18 Task: Deployment,,Done
+2026-10-30,sprint1,44,Adventurer-s-Forge/forge-admin,Issue,US-18 Task: Unit and System Testing,,Done
+2026-10-30,sprint1,46,Adventurer-s-Forge/forge-admin,Issue,US-18 Task: Integration,,Done
+2026-10-30,sprint1,48,Adventurer-s-Forge/forge-admin,Issue,US-18 Task: Load User into Character Editor with Blank Character Sheet,,Done
+2026-10-30,sprint1,2,Adventurer-s-Forge/forge-admin,Issue,US-34: Allow selection of character’s race,3,Done
+2026-10-30,sprint2,5,Adventurer-s-Forge/forge-admin,Issue,US-19: Character Saving & Persistence,5,Done
+2026-10-30,sprint2,4,Adventurer-s-Forge/forge-admin,Issue,US-20: Allow selection of character’s equipment,3,Done
+2026-10-30,sprint2,91,Adventurer-s-Forge/forge-admin,Issue,US-6: Automated tests pass,,Done
+2026-10-30,sprint2,39,Adventurer-s-Forge/forge-admin,Issue,US-36: Allow Editing of the Character Sheet,2,Done
+2026-10-30,sprint2,101,Adventurer-s-Forge/forge-admin,Issue,US-1 Task: The frontend reaches out to the spells API only if the character’s class is a Spellcasting class,,Done
+2026-10-30,sprint2,105,Adventurer-s-Forge/forge-admin,Issue,Selected spells are saved in the database and associated with the correct character.,,Done
+2026-10-30,sprint2,108,Adventurer-s-Forge/forge-admin,Issue,US-19 Task: Automated tests pass,,Done
+2026-10-30,sprint2,107,Adventurer-s-Forge/forge-admin,Issue,US-19 Task: Backend endpoints are developed to save and retrieve a whole character at once,,Done
+2026-10-30,sprint2,106,Adventurer-s-Forge/forge-admin,Issue,US-19 Task: Redis database is reloaded from the data directory after restart,,Done
+2026-10-30,sprint2,109,Adventurer-s-Forge/forge-admin,Issue,US-19 Task: Code is integrated,,Done
+2026-10-30,sprint2,104,Adventurer-s-Forge/forge-admin,Issue,US-1 Task: Unit tests cover at least 70% of code coverage.,,Done
+2026-10-30,sprint2,102,Adventurer-s-Forge/forge-admin,Issue,US-1 Task: Any spells selected are saved to the character in the database,,Done
+2026-10-30,sprint2,25,Adventurer-s-Forge/forge-admin,Issue,US-16: Login Validation & Error Handling,2,Done
+2026-10-30,sprint2,103,Adventurer-s-Forge/forge-admin,Issue,"US-1 Task: In the backend, the endpoint returns all the spells when prompted",,Done
+2026-10-30,sprint2,88,Adventurer-s-Forge/forge-admin,Issue,US-6 Task: The frontend filters and displays the skills to the user to choose,,Done
+2026-10-30,sprint2,89,Adventurer-s-Forge/forge-admin,Issue,US-6 Task: The selected skills take into account any proficiencies or expertises that the character has,,Done
+2026-10-30,sprint2,90,Adventurer-s-Forge/forge-admin,Issue,US-6 Task: Any skills selected are saved to the character in the database,,Done
+2026-10-30,sprint2,114,Adventurer-s-Forge/forge-admin,Issue,US-38 Task: The character is remove from the list of characters in the frontend,,Done
+2026-10-30,sprint2,115,Adventurer-s-Forge/forge-admin,Issue,US-38 Task: The character is remove from the database in the backend,,Done
+2026-10-30,sprint2,116,Adventurer-s-Forge/forge-admin,Issue,US-38 Task: Automated tests pass,,Done
+2026-10-30,sprint1,66,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Documentation,,Done
+2026-10-30,sprint1,68,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Unit and System Testing,,Done
+2026-10-30,sprint1,70,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Integration,,Done
+2026-10-30,sprint1,69,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Code Review,,Done
+2026-10-30,sprint1,71,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Deployment,,Done
+2026-10-30,sprint1,72,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Documentation,,Done
+2026-10-30,sprint1,64,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Integration,,Done
+2026-10-30,sprint1,67,Adventurer-s-Forge/forge-admin,Issue,US-35 Task: Implementation,,Done
+2026-10-30,sprint1,65,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Deployment,,Done
+2026-10-30,sprint2,112,Adventurer-s-Forge/forge-admin,Issue,US-20 Task: Unit and integration tests written and passed,,Done
+2026-10-30,sprint2,113,Adventurer-s-Forge/forge-admin,Issue,US-20 Task: Code reviewed and merged,,Done
+2026-10-30,sprint2,111,Adventurer-s-Forge/forge-admin,Issue,US-20 Task: Equipment endpoints allow updating previously selected equipment,,Done
+2026-10-30,sprint2,110,Adventurer-s-Forge/forge-admin,Issue,US-20 Task: Relevant equipment endpoints are created in user_character_data_routes.py,,Done
+2026-10-30,sprint2,23,Adventurer-s-Forge/forge-admin,Issue,US-1: Select Spells,3,Done
+2026-10-30,sprint2,33,Adventurer-s-Forge/forge-admin,Issue,US-6: Select Skills,3,Done
+2026-10-30,sprint2,87,Adventurer-s-Forge/forge-admin,Issue,US-38: Delete a Character,2,Done
+2026-10-30,sprint1,3,Adventurer-s-Forge/forge-admin,Issue,US-35: Allow selection of character’s class,3,Done
+2026-10-30,sprint1,22,Adventurer-s-Forge/forge-admin,Issue,US-18: Character Creation,5,Done
+2026-10-30,sprint1,19,Adventurer-s-Forge/forge-admin,Issue,US-13: Account Registration,5,Done
+2026-10-30,sprint1,7,Adventurer-s-Forge/forge-admin,Issue,US-22: Ingest Reference Content from External Source,5,Done
+2026-10-30,sprint1,43,Adventurer-s-Forge/forge-admin,Issue,US-18 Task: Create New Character Object in Database and link to User's ID,,Done
+2026-10-30,sprint1,79,Adventurer-s-Forge/forge-admin,Issue,US-13 Task: Create a New Account and Ensure that 1 Email Resolves to Exactly 1 Account,,Done
+2026-10-30,sprint1,80,Adventurer-s-Forge/forge-admin,Issue,US-13 Task: Unit and System Testing,,Done
+2026-10-30,sprint1,75,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Code Review,,Done
+2026-10-30,sprint1,76,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Complete Test Suite & Green CI,,Done
+2026-10-30,sprint1,81,Adventurer-s-Forge/forge-admin,Issue,US-13 Task: Code Review,,Done
+2026-10-30,sprint1,77,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Deployment,,Done
+2026-10-30,sprint1,82,Adventurer-s-Forge/forge-admin,Issue,US-13 Task: Integration,,Done
+2026-10-30,sprint1,83,Adventurer-s-Forge/forge-admin,Issue,US-13 Task: Deployment,,Done
+2026-10-30,sprint1,84,Adventurer-s-Forge/forge-admin,Issue,"US-13 Task: Ensure that Every Failure Path Returns a Specific, Actionable Message",,Done
+2026-10-30,sprint1,20,Adventurer-s-Forge/forge-admin,Issue,US-15: Account Login,3,Done
+2026-10-30,sprint1,49,Adventurer-s-Forge/forge-admin,Issue,US-15 Task: Ensure that all 3 Sign-In Methods Authenticate from a Clean Browser Session and Survives a Page Refresh,,Done
+2026-10-30,sprint1,50,Adventurer-s-Forge/forge-admin,Issue,US-15 Task: Unit and System Testing,,Done
+2026-10-30,sprint1,51,Adventurer-s-Forge/forge-admin,Issue,US-15 Task: Code Review,,Done
+2026-10-30,sprint1,52,Adventurer-s-Forge/forge-admin,Issue,US-15 Task: Integration,,Done
+2026-10-30,sprint1,53,Adventurer-s-Forge/forge-admin,Issue,US-15 Task: Deployment,,Done
+2026-10-30,sprint1,60,Adventurer-s-Forge/forge-admin,Issue,US-15 Task: Ensure that Users with Lost Passwords can Regain Access Unaided,,Done
+2026-10-30,sprint1,21,Adventurer-s-Forge/forge-admin,Issue,US-17: User Logout,2,Done
+2026-10-30,sprint1,54,Adventurer-s-Forge/forge-admin,Issue,US-17 Task: End Session on Sign-out and Return User to the Login Screen,,Done
+2026-10-30,sprint1,55,Adventurer-s-Forge/forge-admin,Issue,US-17 Task: Unit and System Testing,,Done
+2026-10-30,sprint1,56,Adventurer-s-Forge/forge-admin,Issue,US-17 Task: Code Review,,Done
+2026-10-30,sprint1,57,Adventurer-s-Forge/forge-admin,Issue,US-17 Task: Integration,,Done
+2026-10-30,sprint1,58,Adventurer-s-Forge/forge-admin,Issue,US-17 Task: Deployment,,Done
+2026-10-30,sprint1,59,Adventurer-s-Forge/forge-admin,Issue,US-17 Task: Report Failed Sign-outs to the User while Leaving the App Usable,,Done
+2026-10-30,sprint1,1,Adventurer-s-Forge/forge-frontend,PullRequest,"Firebase auth: registration, login, and sign-out",,Done
+2026-10-30,,31,Adventurer-s-Forge/forge-admin,Issue,US-8: Calculate Attack Bonuses for Equipped Weapons,3,Backlog
+2026-10-30,,28,Adventurer-s-Forge/forge-admin,Issue,US-11: Calculate New Hit Points Based on Entered Damage/Healing Points,1,Backlog
+2026-10-30,sprint1,73,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Create Re-runnable Ingestion Script,,Done
+2026-10-30,,12,Adventurer-s-Forge/forge-admin,Issue,US-27: Share a Character with Another Player,4,Backlog
+2026-10-30,,13,Adventurer-s-Forge/forge-admin,Issue,US-28: View Characters Shared With Me,3,Backlog
+2026-10-30,,14,Adventurer-s-Forge/forge-admin,Issue,US-29: Restrict Shared Characters to Read-Only,3,Backlog
+2026-10-30,,16,Adventurer-s-Forge/forge-admin,Issue,US-31: Revoke Character Sharing,3,Backlog
+2026-10-30,,17,Adventurer-s-Forge/forge-admin,Issue,US-32: Export Character Sheet,2,Backlog
+2026-10-30,,18,Adventurer-s-Forge/forge-admin,Issue,US-33: Produce Print-Ready Character Sheet Layout,5,Backlog
+2026-10-30,sprint1,61,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Implementation,,Done
+2026-10-30,sprint1,62,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Unit and System Testing,,Done
+2026-10-30,sprint1,74,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Verify Data is Retrieved Exclusively from Redis at Runtime,,Done
+2026-10-30,sprint1,78,Adventurer-s-Forge/forge-admin,Issue,US-22 Task: Documentation,,Done
+2026-10-30,sprint1,63,Adventurer-s-Forge/forge-admin,Issue,US-34 Task: Code Review,,Done
+2026-10-30,sprint1,27,Adventurer-s-Forge/forge-backend,PullRequest,Added CORS middleware with configurable allowed origins,,Done
+2026-10-30,sprint1,2,Adventurer-s-Forge/forge-frontend,PullRequest,"App UI, character creation, and backend content integration",,Done
+2026-10-30,sprint2,92,Adventurer-s-Forge/forge-admin,Issue,US-6: Code is integrated,,Done
+2026-10-30,sprint2,94,Adventurer-s-Forge/forge-admin,Issue,US-16 Task: The user can recover without friction,,Done
+2026-10-30,sprint2,95,Adventurer-s-Forge/forge-admin,Issue,US-16 Task: Automated tests pass,,Done
+2026-10-30,sprint2,96,Adventurer-s-Forge/forge-admin,Issue,US-16 Task: Code is integrated,,Done
+2026-10-30,sprint2,97,Adventurer-s-Forge/forge-admin,Issue,US-36 Task: The frontend allows the user to edit their character,,Done
+2026-10-30,sprint2,98,Adventurer-s-Forge/forge-admin,Issue,US-36 Task: Any edits are saved to the character in the database,,Done
+2026-10-30,sprint2,99,Adventurer-s-Forge/forge-admin,Issue,US-36 Task: Automated integration testing is conducted and passes successfully,,Done
+2026-10-30,sprint2,100,Adventurer-s-Forge/forge-admin,Issue,US-36 Task: Code changes are documented in the tickets,,Done
+2026-10-30,sprint2,3,Adventurer-s-Forge/forge-frontend,PullRequest,Connect the frontend to the backend and migrate to SRD-2024. Along with new UI changes and more!,,Done
+2026-10-30,sprint2,35,Adventurer-s-Forge/forge-backend,PullRequest,Us 19 auth -- Verify Firebase ID tokens and consolidate the character contract.,,Done
+2026-10-30,sprint2,117,Adventurer-s-Forge/forge-admin,Issue,US-38 Task: Code is integrated,,Done
+2026-10-30,sprint3,4,Adventurer-s-Forge/forge-frontend,PullRequest,"UI rework -- Rebuild the race, class and background steps as tile grids, and store equipment picks in full",,Done
+2026-10-30,sprint3,155,Adventurer-s-Forge/forge-admin,Issue,US-9 Task: The feats reference content is ingested from the external source and served by the backend,,Backlog
+2026-10-30,sprint3,156,Adventurer-s-Forge/forge-admin,Issue,US-9 Task: Display feats on the character sheet automatically,,Backlog
+2026-10-30,sprint3,157,Adventurer-s-Forge/forge-admin,Issue,US-9 Task: Only feats present in the adopted ruleset are offered or displayed,,Backlog
+2026-10-30,sprint3,158,Adventurer-s-Forge/forge-admin,Issue,US-9 Task: Replace hand-written fighting-style list with ingested data,,Backlog
+2026-10-30,sprint3,163,Adventurer-s-Forge/forge-admin,Issue,US-23 Task: An attribute note is reachable from the application interface,,Backlog
+2026-10-30,sprint3,164,Adventurer-s-Forge/forge-admin,Issue,US-23 Task: The notice identifies the reference content’s source and license it is used under,,Backlog
+2026-10-30,sprint3,165,Adventurer-s-Forge/forge-admin,Issue,"US-23 Task: The licensed text, or a link to it, is included as that license requires",,Backlog
+2026-10-30,sprint3,166,Adventurer-s-Forge/forge-admin,Issue,US-25 Task: Filter all results by a user-provided content type,,Backlog
+2026-10-30,sprint3,167,Adventurer-s-Forge/forge-admin,Issue,US-25 Task: Verify the user-provided content type,,Backlog
+2026-10-30,sprint3,168,Adventurer-s-Forge/forge-admin,Issue,US-25 Task: Update the list of results to match the filter in the frontend,,Backlog
+2026-10-30,sprint3,169,Adventurer-s-Forge/forge-admin,Issue,US-25 Task: Unit Testing,,Backlog
+2026-10-30,sprint3,170,Adventurer-s-Forge/forge-admin,Issue,US-24 Task: Search view accepts a name query and searches the stored reference content,,Backlog
+2026-10-30,sprint3,171,Adventurer-s-Forge/forge-admin,Issue,US-24 Task: Reference entries whose names match the search query appear in the results,,Backlog
+2026-10-30,sprint3,172,Adventurer-s-Forge/forge-admin,Issue,US-24 Task: Search query with no matches displays a “No results found” message,,Backlog
+2026-10-30,sprint3,173,Adventurer-s-Forge/forge-admin,Issue,US-24 Task: Automated tests cover matching and no-match queries,,Backlog
+2026-10-30,sprint3,174,Adventurer-s-Forge/forge-admin,Issue,US-26 Task: Open search view without losing progress,,Backlog
+2026-10-30,sprint3,175,Adventurer-s-Forge/forge-admin,Issue,US-26 Task: Don't trigger unsaved-changes prompt when opening search view,,Backlog
+2026-10-30,sprint3,176,Adventurer-s-Forge/forge-admin,Issue,US-26 Task: Don't write to character API when opening/leaving search view,,Backlog
+2026-10-30,sprint3,177,Adventurer-s-Forge/forge-admin,Issue,US-26 Task: Unit Testing,,Backlog
+2026-10-30,sprint3,5,Adventurer-s-Forge/forge-frontend,PullRequest,US-21 Duplicate a character from the dashboard in a single write,,In review
+2026-10-30,sprint3,159,Adventurer-s-Forge/forge-admin,Issue,"US-21 Task: Duplicating a character creates a copy under a new identifier, prefilled with every selection from the source.",,In review
+2026-10-30,sprint3,160,Adventurer-s-Forge/forge-admin,Issue,US-21 Task: The source character is left unmodified by the duplication,,In review
+2026-10-30,sprint3,162,Adventurer-s-Forge/forge-admin,Issue,US-21 Task: The duplicate action is reachable from every character card on the dashboard,,In review
+2026-10-30,sprint3,161,Adventurer-s-Forge/forge-admin,Issue,US-21 Task: The copy appears on the dashboard immediately and is editable like any other character.,,In review
+2026-10-30,,39,Adventurer-s-Forge/forge-backend,Issue,"Spell validation ignores the background's Magic Initiate grant, rejecting legal characters with 422.",,Backlog
