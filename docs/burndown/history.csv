@@ -7852,15 +7852,15 @@ date,milestone,item_number,repository,item_type,title,story_points,status
 2026-11-14,sprint4,188,Adventurer-s-Forge/forge-admin,Issue,US-42 Task: Assign the Optimized Attribute Scores,,Backlog
 2026-11-14,sprint4,189,Adventurer-s-Forge/forge-admin,Issue,US-42 Task: Unit Testing,,Backlog
 2026-11-15,sprint4,196,Adventurer-s-Forge/forge-admin,Issue,US-39: Create a purely random character,3,Ready
-2026-11-15,sprint4,180,Adventurer-s-Forge/forge-admin,Issue,US-8 Task: Every weapon the character owns is listed on the character sheet with its attack bonus and damage,,In review
-2026-11-15,sprint4,182,Adventurer-s-Forge/forge-admin,Issue,US-8 Task: Each damaging cantrip is listed with its spell attack bonus or saving throw DC,,In review
-2026-11-15,sprint4,181,Adventurer-s-Forge/forge-admin,Issue,US-8 Task: The attack bonus adds proficiency only for weapon the class is trained in,,In review
-2026-11-15,sprint4,183,Adventurer-s-Forge/forge-admin,Issue,US-8 Task: Unit Testing,,In review
-2026-11-15,sprint4,31,Adventurer-s-Forge/forge-admin,Issue,US-8: Calculate Attack Bonuses for Equipped Weapons,3,In review
-2026-11-15,sprint4,28,Adventurer-s-Forge/forge-admin,Issue,US-11: Calculate New Hit Points Based on Entered Damage/Healing Points,1,In review
-2026-11-15,sprint4,17,Adventurer-s-Forge/forge-admin,Issue,US-32: Export Character Sheet,2,In review
-2026-11-15,sprint4,18,Adventurer-s-Forge/forge-admin,Issue,US-33: Produce Print-Ready Character Sheet Layout,5,In review
 2026-11-15,sprint4,7,Adventurer-s-Forge/forge-frontend,PullRequest,"Character sheet and print for US-32 and US-33, plus four new search types and more!",,Done
+2026-11-15,sprint4,18,Adventurer-s-Forge/forge-admin,Issue,US-33: Produce Print-Ready Character Sheet Layout,5,Done
+2026-11-15,sprint4,17,Adventurer-s-Forge/forge-admin,Issue,US-32: Export Character Sheet,2,Done
+2026-11-15,sprint4,28,Adventurer-s-Forge/forge-admin,Issue,US-11: Calculate New Hit Points Based on Entered Damage/Healing Points,1,Done
+2026-11-15,sprint4,183,Adventurer-s-Forge/forge-admin,Issue,US-8 Task: Unit Testing,,Done
+2026-11-15,sprint4,31,Adventurer-s-Forge/forge-admin,Issue,US-8: Calculate Attack Bonuses for Equipped Weapons,3,Done
+2026-11-15,sprint4,181,Adventurer-s-Forge/forge-admin,Issue,US-8 Task: The attack bonus adds proficiency only for weapon the class is trained in,,Done
+2026-11-15,sprint4,180,Adventurer-s-Forge/forge-admin,Issue,US-8 Task: Every weapon the character owns is listed on the character sheet with its attack bonus and damage,,Done
+2026-11-15,sprint4,182,Adventurer-s-Forge/forge-admin,Issue,US-8 Task: Each damaging cantrip is listed with its spell attack bonus or saving throw DC,,Done
 2026-11-15,sprint4,179,Adventurer-s-Forge/forge-admin,Issue,US-42: Recommend ability scores by character type,5,Ready
 2026-11-15,sprint4,190,Adventurer-s-Forge/forge-admin,Issue,US-41: Advice on Point-Buy Ability Scores,5,Ready
 2026-11-15,sprint4,191,Adventurer-s-Forge/forge-admin,Issue,"US-41 Task: Under point buy, the Attributes step flags any score that costs more points than a cheaper score giving the same modifier once that ability’s background bonus is added, and names the cheaper score.",,Ready
