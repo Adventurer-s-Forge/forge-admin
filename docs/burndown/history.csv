@@ -7851,6 +7851,7 @@ date,milestone,item_number,repository,item_type,title,story_points,status
 2026-11-14,sprint4,187,Adventurer-s-Forge/forge-admin,Issue,US-42 Task: The system informs the user of the recommended attribute score distribution and offers to assign those scores,,Backlog
 2026-11-14,sprint4,188,Adventurer-s-Forge/forge-admin,Issue,US-42 Task: Assign the Optimized Attribute Scores,,Backlog
 2026-11-14,sprint4,189,Adventurer-s-Forge/forge-admin,Issue,US-42 Task: Unit Testing,,Backlog
+2026-11-15,sprint4,196,Adventurer-s-Forge/forge-admin,Issue,US-39: Create a purely random character,3,Ready
 2026-11-15,sprint4,180,Adventurer-s-Forge/forge-admin,Issue,US-8 Task: Every weapon the character owns is listed on the character sheet with its attack bonus and damage,,In review
 2026-11-15,sprint4,182,Adventurer-s-Forge/forge-admin,Issue,US-8 Task: Each damaging cantrip is listed with its spell attack bonus or saving throw DC,,In review
 2026-11-15,sprint4,181,Adventurer-s-Forge/forge-admin,Issue,US-8 Task: The attack bonus adds proficiency only for weapon the class is trained in,,In review
@@ -7859,13 +7860,14 @@ date,milestone,item_number,repository,item_type,title,story_points,status
 2026-11-15,sprint4,28,Adventurer-s-Forge/forge-admin,Issue,US-11: Calculate New Hit Points Based on Entered Damage/Healing Points,1,In review
 2026-11-15,sprint4,17,Adventurer-s-Forge/forge-admin,Issue,US-32: Export Character Sheet,2,In review
 2026-11-15,sprint4,18,Adventurer-s-Forge/forge-admin,Issue,US-33: Produce Print-Ready Character Sheet Layout,5,In review
-2026-11-15,sprint4,7,Adventurer-s-Forge/forge-frontend,PullRequest,"Character sheet and print for US-32 and US-33, plus four new search types and more!",,In review
+2026-11-15,sprint4,7,Adventurer-s-Forge/forge-frontend,PullRequest,"Character sheet and print for US-32 and US-33, plus four new search types and more!",,Done
 2026-11-15,sprint4,179,Adventurer-s-Forge/forge-admin,Issue,US-42: Recommend ability scores by character type,5,Ready
 2026-11-15,sprint4,190,Adventurer-s-Forge/forge-admin,Issue,US-41: Advice on Point-Buy Ability Scores,5,Ready
 2026-11-15,sprint4,191,Adventurer-s-Forge/forge-admin,Issue,"US-41 Task: Under point buy, the Attributes step flags any score that costs more points than a cheaper score giving the same modifier once that ability’s background bonus is added, and names the cheaper score.",,Ready
 2026-11-15,sprint4,192,Adventurer-s-Forge/forge-admin,Issue,"US-41 Task: The step recommends a score for each ability and a placement of the background bonuses. Together they give the highest total of ability modifiers weighted for the class (primary ability 3, saving throw abilities and Constitution 2, the rest 1), and each score comes with its reason.",,Ready
 2026-11-15,sprint4,193,Adventurer-s-Forge/forge-admin,Issue,"US-41 Task: The advice is text only: it never changes the player’s score or bonuses, it updates as the player changes them, and it gives the same recommendation very time for the same class and background.",,Ready
 2026-11-15,sprint4,194,Adventurer-s-Forge/forge-admin,Issue,"US-41 Task: Unit tests check the recommendation against an exhaustive search for every class and background, and component tests cover a flagged score, an unflagged score, and the player’s selections staying unchanged.",,Ready
+2026-11-15,sprint4,195,Adventurer-s-Forge/forge-admin,Issue,US-40: Create a random character with optimized ability scores,5,Ready
 2026-11-15,sprint3,30,Adventurer-s-Forge/forge-admin,Issue,US-9: Automatically Populate Feats,5,Done
 2026-11-15,sprint3,158,Adventurer-s-Forge/forge-admin,Issue,US-9 Task: Replace hand-written fighting-style list with ingested data,,Done
 2026-11-15,sprint3,170,Adventurer-s-Forge/forge-admin,Issue,US-24 Task: Search view accepts a name query and searches the stored reference content,,Done
@@ -8050,3 +8052,7 @@ date,milestone,item_number,repository,item_type,title,story_points,status
 2026-11-15,sprint4,187,Adventurer-s-Forge/forge-admin,Issue,US-42 Task: The system informs the user of the recommended attribute score distribution and offers to assign those scores,,Backlog
 2026-11-15,sprint4,188,Adventurer-s-Forge/forge-admin,Issue,US-42 Task: Assign the Optimized Attribute Scores,,Backlog
 2026-11-15,sprint4,189,Adventurer-s-Forge/forge-admin,Issue,US-42 Task: Unit Testing,,Backlog
+2026-11-15,sprint4,197,Adventurer-s-Forge/forge-admin,Issue,US-39 Task: Implement random selection logic,,Ready
+2026-11-15,sprint4,198,Adventurer-s-Forge/forge-admin,Issue,"US-39 Task: Wire up ""Randomize"" UI trigger and display result",,Ready
+2026-11-15,sprint4,199,Adventurer-s-Forge/forge-admin,Issue,US-39 Task: Unit + API test coverage,,Ready
+2026-11-15,sprint4,200,Adventurer-s-Forge/forge-admin,Issue,"US-39 Task: Code review, merge, and acceptance criteria verification",,Ready
